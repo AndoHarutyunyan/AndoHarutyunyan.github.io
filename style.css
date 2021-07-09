@@ -91,6 +91,9 @@ b{
 .date{
     font-size: 13px;
 }
+.padding-left{
+    padding-left: 10px;
+}
 /*  */
 @media (max-width: 320px) {
     body {
