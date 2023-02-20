@@ -1,0 +1,139 @@
+body {
+    width: 1000px;
+    box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.27);
+    margin: 15px auto;
+    border-radius: 7px;
+    padding: 10px;
+    font-family: Montserrat;
+}
+*{ 
+    margin: 0;
+    padding: 0; 
+}
+.my-name-2{
+    display: none;
+}
+.my-photo{
+    width: 250px;
+    object-fit: cover;
+    border: 3px solid #0777e8;
+    box-sizing: border-box;
+}
+.wrapContact{    
+    display: flex;
+    width: 100%;
+}
+.imgIcon{
+    width: 40px;
+    object-fit: cover;
+}
+.contact{
+    width: 100%;
+    padding-left: 10px;
+}
+
+.face-linkdin{
+    display: flex;
+    margin-top: 10px;
+    width: 13%;
+    justify-content: space-between;
+}
+.face{ 
+    width: 44px;
+}
+.wrap-text-contact{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+.text-contact{
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #8d949e;
+}
+.wrapInfo{
+    display: flex;
+}
+.leftAndRightPart{
+    width: 50%;
+}
+.itemInfo{
+    margin-top: 10px;
+}
+h2{
+    font-size: 30px;
+    color: #0777e8;
+}
+.nameInfo{
+    color:#0777e8;
+    font-weight: 600;
+    font-size: 18px;
+}
+ul{
+    padding: 5px 0 0 17px;
+}
+li{
+    color: grey;
+    font-weight: 600;
+    line-height: 25px;
+}
+p{
+    color: grey;
+    font-weight: 600;
+}
+b{
+    color: black;
+}
+.margin-top{
+    margin-top: 10px;
+}
+.date{
+    font-size: 13px;
+}
+.padding-left{
+    padding-left: 10px;
+}
+/*  */
+@media (max-width: 320px) {
+    body {
+     width: 295px;
+     padding: 4px;
+    }
+    .wrapContact{    
+        display:block;
+    }
+    .my-name-2{
+        display: block;
+        text-align: center;
+        font-weight: 600;
+        font-size: 25px;
+    }
+    h1{
+        display: none;
+    }
+    .wrapInfo{
+        display: block;
+    }
+    .leftAndRightPart{
+        width: 98%;
+    }
+    .imgIcon{
+        width: 30px;
+        object-fit: cover;
+    }
+    .face{ 
+        width: 32px;
+    }
+    .text-contact{
+        font-size: 13px;
+    }
+    .contact{        
+        padding: 0px;
+    }
+    .my-Photo-Div{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+  }
